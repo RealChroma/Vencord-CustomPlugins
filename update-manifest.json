@@ -1,13 +1,13 @@
 ﻿{
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.0.6",
-    "published_at":  "2026-10-16T21:08:06Z",
-    "release_page":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/tag/v1.0.6",
+    "version":  "1.0.7",
+    "published_at":  "2026-10-30T21:36:29Z",
+    "release_page":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/tag/v1.0.7",
     "components":  {
                        "vencord":  {
-                                       "version":  "1.15.11",
-                                       "commit":  "32c90633ce6a95d7e56c95479efbb431bacf1eac"
+                                       "version":  "1.15.14",
+                                       "commit":  "644434941b515a2626a2161e219653cb36e723e7"
                                    },
                        "orion_quests":  "4.11.5",
                        "nitro_sniper":  "bundled",
@@ -16,20 +16,20 @@
     "assets":  {
                    "windows_release":  {
                                            "name":  "Vencord-CustomPlugins-release.zip",
-                                           "url":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/download/v1.0.6/Vencord-CustomPlugins-release.zip",
-                                           "sha256":  "78A2562AD2C5552929DE94094EA43571B8D278C8A9B149D05302BC3DDB312D67"
+                                           "url":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/download/v1.0.7/Vencord-CustomPlugins-release.zip",
+                                           "sha256":  "8D7B887F2DFF154FC691866F17F0354D6421704655A93E88E8C96C81370B4930"
                                        },
                    "source":  {
                                   "name":  "Vencord-CustomPlugins-source.zip",
-                                  "url":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/download/v1.0.6/Vencord-CustomPlugins-source.zip",
-                                  "sha256":  "49AA1FD954CD197C118DDAF9ED48F51C4DBD4919F52D080137EE9CF4F4DC76E8"
+                                  "url":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/download/v1.0.7/Vencord-CustomPlugins-source.zip",
+                                  "sha256":  "2273DF0D0FCF0DF64521AA2B0FB5B293988EC32076127A41DCF6A2CD27FDB5F2"
                               }
                },
     "manager":  {
                     "version":  "0.1.8",
                     "asset":  {
                                   "name":  "VencordCustomManager-v0.1.8.exe",
-                                  "url":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/download/v1.0.6/VencordCustomManager-v0.1.8.exe",
+                                  "url":  "https://github.com/RealChroma/Vencord-CustomPlugins/releases/download/v1.0.7/VencordCustomManager-v0.1.8.exe",
                                   "sha256":  "19D29A691BEB3414D60BB748E71B20EAF92CBB45858F91579CEC51806BA2439E"
                               }
                 }

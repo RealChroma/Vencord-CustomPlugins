@@ -4,7 +4,7 @@ A Windows distribution of a custom Vencord fork with runtime JavaScript plugin l
 
 ## Recommended install: Custom Vencord Manager
 
-Download **`VencordCustomManager.exe`** from the latest GitHub Release and run it. The manager is a self-contained Windows application; your friends do not need Git, Node.js, pnpm, or the .NET runtime installed.
+Download **`VencordCustomManager-v0.1.8.exe`** from the latest GitHub Release and run it. The manager is a self-contained Windows application; your friends do not need Git, Node.js, pnpm, or the .NET runtime installed.
 
 The manager can:
 
@@ -33,10 +33,10 @@ Once the manager is installed, future releases are discovered through `update-ma
 
 ## Current release
 
-- Distribution: **v1.0.6**
+- Distribution: **v1.0.7**
 - Custom Vencord Manager: **v0.1.8**
-- Vencord base: **1.15.11** (`32c90633`)
-- OrionQuests: **v4.11.5** (`38b6f84`)
+- Vencord base: **1.15.14** (`64443494`)
+- OrionQuests: **v4.11.5** (`7b21ac3`; latest upstream commit, version unchanged)
 - Runtime custom-plugin loader: included
 - NitroSniper: included
 

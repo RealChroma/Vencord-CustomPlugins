@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../manager/VencordCustomManager/Models.cs" Link="Models.cs" />
+    <Compile Include="../../manager/VencordCustomManager/ManagerPaths.cs" Link="ManagerPaths.cs" />
+    <Compile Include="../../manager/VencordCustomManager/DiscordPatchService.cs" Link="DiscordPatchService.cs" />
+  </ItemGroup>
+</Project>

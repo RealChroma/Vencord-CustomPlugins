@@ -30,7 +30,7 @@ The release version, URLs and hashes must be updated together for every publicat
 Build the payload from the Vencord source tree with the declared pnpm version and the exact distribution flags:
 
 ```powershell
-npx -y pnpm@11.9.0 build --standalone --disable-updater
+corepack pnpm build --standalone --disable-updater
 ```
 
 The release archive must also contain a non-empty `dist\package.json` (the current distribution uses `{}`). The Vencord build itself does not create this file.
@@ -46,6 +46,14 @@ Before any GitHub release is published or the manifest is changed, validate the 
 ```
 
 This preflight mirrors the manager's managed-payload integrity file set, rejects empty or missing files, rejects accidental `dist\dist` nesting, parses `dist\package.json`, and checks the payload README metadata. A release must not be advertised until this validation and an install/verify/uninstall isolation test both pass.
+
+Run the isolated package smoke test with .NET 9:
+
+```powershell
+dotnet run --project scripts/ReleaseSmokeTests -- <release-zip> <new-empty-isolation-directory>
+```
+
+The test links the manager's actual path and patch services, redirecting special folders into a new test directory. It extracts the exact ZIP and tests injection, verification, cross-client rejection, original restoration, and plugin preservation for Stable/PTB/Canary. It uses synthetic `app.asar` files, does not launch Discord or load a user account, and is not proof of live Discord plugin behavior. The isolated files remain available for inspection after the test.
 
 ## Manager updates
 
